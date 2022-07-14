@@ -91,3 +91,71 @@ header{
     color: #707070;
     margin-top: 15px;
 }
+.donation{
+    text-align: center;
+    margin-top: 70px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 461px 461px;
+    grid-template-rows: auto;
+    grid-column-gap: 25px;
+    grid-row-gap: -2px;
+   align-items: center;
+   justify-content: center;
+    
+    }
+    .help{
+        display: flex;
+        text-align: left;
+        background: #FEF4F5;
+        border-radius: 10px;
+        margin-top: 30px;
+     
+        
+    }
+    .help-text{
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+    .help-icon{
+        margin-left: 25px;
+    }
+    .dua{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 70px;
+    }
+    .card{
+        width:364px;
+        height: 481px;
+        border: 1px solid #D9D9D9;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+    .card-text{
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+    .zakat{
+        font-family: 'Inter';
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        text-decoration-line: underline;
+        color: #EF233C;
+        
+    }
+    footer{
+        background-color: #121212;
+        text-align: center;
+        margin-top: 50px;
+        height: 170px;
+        position: relative;
+    }
+    .footer-item{
+        position: absolute;
+        top: 50%;
+        left:40%
+    }

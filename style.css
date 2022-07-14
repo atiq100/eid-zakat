@@ -61,3 +61,33 @@ header{
     border: 1px solid #EF233C;
     color: #EF233C;
 }
+.container{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.vedio{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:100px;
+}
+.vedio-icon{
+    position: absolute;
+    left:67%;
+    top:160%;
+    cursor: pointer;
+}
+.h1-text{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    
+}
+.p-text{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    margin-top: 15px;
+}
